@@ -90,5 +90,6 @@ Because we can't answer every question here, you may want to check the [docs](ht
 
 ## Credits
 
-[Fidind3211](https://github.com/fidind3211) - Founder of CodeOw WebOS
+[Fidind3211](https://github.com/fidind3211) - Founder of CodeOw WebOS 
+<br/>
 [CodeBowser](https://github.com/joetheshmoe) - Also a Founder of CodeOw WebOS
