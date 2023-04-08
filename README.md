@@ -15,7 +15,7 @@ You CANNOT deploy to Netifly, GitHub Pages, or Cloudflare pages. [Read more here
 <!-- The font is called Big, if you are wondering -->
 <div align="center">
          
-<img src="https://socialify.git.ci/fidind3211/Incognito/image?description=1&descriptionEditable=Access%20the%20world%20wide%20web&font=Inter&forks=1&issues=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Ffidind3211%2FCodeOw-WebOS%2Fmain%2Fstatic%2Findex.svg&name=1&owner=1&pattern=Solid&stargazers=1&theme=Light" alt="CodeOw WebOS" width="640" height="320" />
+<img src="https://socialify.git.ci/fidind3211/CodeOw-WebOS/image?description=1&descriptionEditable=Access%20the%20world%20wide%20web&font=Inter&forks=1&issues=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Ffidind3211%2FCodeOw-WebOS%2Fmain%2Fstatic%2Findex.svg&name=1&owner=1&pattern=Solid&stargazers=1&theme=Light" alt="CodeOw WebOS" width="640" height="320" />
 
 <a href="" alt="Made with NodeJS"><img src="https://img.shields.io/badge/Made%20with-Node.JS-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"></a> 
 <a href="https://github.com/fidind3211/codeow-webos/graphs/contributors/" alt=""><img src="https://img.shields.io/github/contributors/fidind3211/CodeOw-WebOS?style=for-the-badge"></a>
