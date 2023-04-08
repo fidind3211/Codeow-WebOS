@@ -2,17 +2,6 @@
 
 You CANNOT deploy to Netifly, GitHub Pages, or Cloudflare pages. [Read more here](https://amethystnetwork-dev.github.io/docs/static-hosts).
 
-<!--
-                                _     _                     _       _   _          _                               _    
-     /\                        | |   | |                   | |     | \ | |        | |                             | |   
-    /  \     _ __ ___     ___  | |_  | |__    _   _   ___  | |_    |  \| |   ___  | |_  __      __   ___    _ __  | | __
-   / /\ \   | '_ ` _ \   / _ \ | __| | '_ \  | | | | / __| | __|   | . ` |  / _ \ | __| \ \ /\ / /  / _ \  | '__| | |/ /
-  / ____ \  | | | | | | |  __/ | |_  | | | | | |_| | \__ \ | |_    | |\  | |  __/ | |_   \ V  V /  | (_) | | |    |   < 
- /_/    \_\ |_| |_| |_|  \___|  \__| |_| |_|  \__, | |___/  \__|   |_| \_|  \___|  \__|   \_/\_/    \___/  |_|    |_|\_\
-                                               __/ |                                                                    
-                                              |___/                                                                     
--->
-<!-- The font is called Big, if you are wondering -->
 <div align="center">
          
 <img src="https://socialify.git.ci/fidind3211/CodeOw-WebOS/image?description=1&descriptionEditable=Access%20the%20world%20wide%20web&font=Inter&forks=1&issues=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Ffidind3211%2FCodeOw-WebOS%2Fmain%2Fstatic%2Findex.svg&name=1&owner=1&pattern=Solid&stargazers=1&theme=Light" alt="CodeOw WebOS" width="640" height="320" />
