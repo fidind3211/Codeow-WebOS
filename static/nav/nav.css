@@ -1,0 +1,45 @@
+		#icon {
+			position: fixed;
+			bottom: 10px;
+			left: 10px;
+			width: 50px;
+			height: 50px;
+			background-image: url('https://www.svgrepo.com/show/82662/opened-white-box.svg');
+			background-size: cover;
+			cursor: pointer;
+		}
+
+		#icons-wrapper {
+			display: block;
+			position: fixed;
+			bottom: 10px; 
+			left: 70px;
+			background-color: #1c1c1c;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+			padding: 10px;
+			border-radius: 10px;
+			z-index: 999;
+			overflow: hidden;
+			width: 10px;
+			height: 30px; 
+			transition: width 0.5s ease-out
+		}
+
+		#icons-wrapper.show {
+			width: 200px;
+		}
+
+		.icon {
+			display: inline-block;
+			margin-right: 1px;
+			width: 30px;
+			height: 30px;
+			background-image: url('https://www.svgrepo.com/show/82662/opened-white-box.svg');
+			background-size: cover;
+			cursor: pointer;
+			transition: transform 0.2s ease-out;
+		}
+
+		.icon:hover {
+			transform: translateY(-10px);
+		}
