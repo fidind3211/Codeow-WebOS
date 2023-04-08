@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CodOwOS</title>
+<link rel="stylesheet" href="nav/nav.css">
+<link rel="stylesheet" href="nav/go.css">
+  <style>
+.title {
+  font-size: 5em;
+  font-weight: 700;
+  color: #fff;
+  font-family: source sans pro, sans-serif;
+  line-height: 1.5em;
+  text-align: center;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px 10px rgba(256, 256, 256, 0.8);
+}
+    
+.title::after {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0.5;
+  }
+}
+
+
+    body {
+  background-color: #1c1c1c;
+  color: #fff;
+        user-select: none;
+}
+.epic-header {
+  background-color: #333;
+  color: #fff;
+  padding: 30px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: 0 auto;
+  width: 90%;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+  </style>
+</head>
+<body>
+  <div class="epic-header"></div>
+  <h1 class="title">CodOwOS</h1>
+	<div id="icon"></div>
+	<div id="icons-wrapper">
+		<div class="icon" onclick="go('https://gointerstellar.app/web');"></div>
+		<div class="icon" onclick="go('https://gointerstellar.app/play.html');"></div>
+		<div class="icon" onclick="go('https://gointerstellar.app/');"></div>
+    <div class="icon" onclick="go('https://vscode.dev');"></div>
+	</div>
+      <div class="icon" onclick="go('/settings.html');"></div>
+	</div>
+	<script src="nav/nav.js"></script>
+  <script src="nav/navhover.js"></script>
+  <script src="nav/go.js"></script>
+  <script src="nav/battery.js"></script>
+</body>
+</html>

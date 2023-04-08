@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Settings Page</title>
+  <link rel="stylesheet" href="nav/settings.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h2>Setting 1</h2>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <div class="card">
+      <h2>Setting 2</h2>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <div class="card">
+      <h2>Setting 3</h2>
+      <input type="text" placeholder="Enter text here">
+    </div>
+    <div class="card">
+      <h2>Setting 4</h2>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <div class="card">
+      <h2>Setting 5</h2>
+      <input type="text" placeholder="Enter text here">
+    </div>
+    <div class="card">
+      <h2>Setting 6</h2>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </div>
+
+  <script>
+    const toggleSwitch = document.querySelector('.switch input[type="checkbox"]');
+
+    function switchTheme(e) {
+      if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }    
+    }
+
+    toggleSwitch.addEventListener('change', switchTheme, false);
+  </script>
+</body>
+</html>
