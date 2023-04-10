@@ -37,7 +37,7 @@ app.use((req, res) => {
   res.writeHead(500, null, {
     "Content-Type": "text/plain",
   });
-  res.end("Error Getting them e sex");
+  res.end("Error");
 });
 
 server.on("request", app);
