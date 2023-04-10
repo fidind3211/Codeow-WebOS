@@ -31,13 +31,13 @@ app.use((req, res, next) => {
 
 app.use(serveStatic(fileURLToPath(new URL("../static/", import.meta.url))));
 
-app.use("/static/uv", serveStatic(uvPath));
+app.use("/uv", serveStatic(uvPath));
 
 app.use((req, res) => {
   res.writeHead(500, null, {
     "Content-Type": "text/plain",
   });
-  res.end("Error");
+  res.end("Error Getting them e sex");
 });
 
 server.on("request", app);
